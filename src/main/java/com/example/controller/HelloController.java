@@ -31,4 +31,10 @@ public class HelloController {
         return "Hello World21";
     }
 
+    @ResponseBody
+    @RequestMapping("/22")
+    public String hello22(){
+        return "Hello World22";
+    }
+
 }
