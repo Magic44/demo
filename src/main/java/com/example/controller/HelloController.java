@@ -38,7 +38,8 @@ public class HelloController {
     }
 
     @ResponseBody
-    @RequestMapping("/5")
-    public String hello5(){ return "Hello World5";}
-
+    @RequestMapping("/235")
+    public String hello235(){
+        return "Hello World235";
+    }
 }
