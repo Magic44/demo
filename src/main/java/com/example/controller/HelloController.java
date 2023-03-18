@@ -25,4 +25,10 @@ public class HelloController {
         return "Hello World2";
     }
 
+    @ResponseBody
+    @RequestMapping("/21")
+    public String hello21(){
+        return "Hello World21";
+    }
+
 }
